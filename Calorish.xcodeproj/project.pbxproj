@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2DD47395FE3CFD1A1D190F66 /* Pods_Calorish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0882D50917A45577D0D4C3 /* Pods_Calorish.framework */; };
 		8412F17C2845DFE000E891AC /* ItemsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412F17B2845DFE000E891AC /* ItemsGroup.swift */; };
 		8412F17F2845FAD200E891AC /* IntakeMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412F17E2845FAD200E891AC /* IntakeMode.swift */; };
 		845446BD2834F55C00B7BE6F /* MealsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845446B62834F55C00B7BE6F /* MealsPresenter.swift */; };
@@ -117,11 +116,12 @@
 		84FC4425286440590012ECA7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84FC4427286440590012ECA7 /* Localizable.strings */; };
 		84FC442A286571250012ECA7 /* UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC4429286571250012ECA7 /* UIKit.swift */; };
 		84FC442C286572B30012ECA7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC442B286572B30012ECA7 /* Constants.swift */; };
+		99618B6FFBB0BFFC6AEF7926 /* Pods_Calorish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC6CD28E29978443ABF5DA5 /* Pods_Calorish.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		44A1A6DD3BCF3F709C043F09 /* Pods-Calorish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calorish.release.xcconfig"; path = "Target Support Files/Pods-Calorish/Pods-Calorish.release.xcconfig"; sourceTree = "<group>"; };
-		4A0882D50917A45577D0D4C3 /* Pods_Calorish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Calorish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F2601C33A85C04D72EFA66 /* Pods-Calorish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calorish.release.xcconfig"; path = "Target Support Files/Pods-Calorish/Pods-Calorish.release.xcconfig"; sourceTree = "<group>"; };
+		34CB4F80C719568619BA527E /* Pods-Calorish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calorish.debug.xcconfig"; path = "Target Support Files/Pods-Calorish/Pods-Calorish.debug.xcconfig"; sourceTree = "<group>"; };
 		8412F17B2845DFE000E891AC /* ItemsGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsGroup.swift; sourceTree = "<group>"; };
 		8412F17E2845FAD200E891AC /* IntakeMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntakeMode.swift; sourceTree = "<group>"; };
 		845446B62834F55C00B7BE6F /* MealsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsPresenter.swift; sourceTree = "<group>"; };
@@ -196,7 +196,7 @@
 		84A95D30283B83C000C08CF7 /* TransitionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionType.swift; sourceTree = "<group>"; };
 		84A95D33283CB55B00C08CF7 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		84A95D35283CBC6000C08CF7 /* Food+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Food+CoreDataClass.swift"; sourceTree = "<group>"; };
-		84B0B2B7282CDF0200525D98 /* Calorish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calorish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B0B2B7282CDF0200525D98 /* Calorish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Calorish.app; path = "/Users/tatianabugai/Developer/Pet Projects/Calorish/build/Debug-iphoneos/Calorish.app"; sourceTree = "<absolute>"; };
 		84B0B2BA282CDF0200525D98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84B0B2BC282CDF0200525D98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		84B0B2C6282CDF0600525D98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -234,7 +234,7 @@
 		84FC4428286442790012ECA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		84FC4429286571250012ECA7 /* UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKit.swift; sourceTree = "<group>"; };
 		84FC442B286572B30012ECA7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		B2CE77A7393A8FB8ED1B3611 /* Pods-Calorish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calorish.debug.xcconfig"; path = "Target Support Files/Pods-Calorish/Pods-Calorish.debug.xcconfig"; sourceTree = "<group>"; };
+		AFC6CD28E29978443ABF5DA5 /* Pods_Calorish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Calorish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,28 +242,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DD47395FE3CFD1A1D190F66 /* Pods_Calorish.framework in Frameworks */,
+				99618B6FFBB0BFFC6AEF7926 /* Pods_Calorish.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F0C672B5BA731F64C32A0CE /* Frameworks */ = {
+		75BFC529758DF4D46F65F970 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4A0882D50917A45577D0D4C3 /* Pods_Calorish.framework */,
+				34CB4F80C719568619BA527E /* Pods-Calorish.debug.xcconfig */,
+				07F2601C33A85C04D72EFA66 /* Pods-Calorish.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		34A8E2C4B061437BED3A6D2E /* Pods */ = {
+		8354380112AC6876B8E26A2A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B2CE77A7393A8FB8ED1B3611 /* Pods-Calorish.debug.xcconfig */,
-				44A1A6DD3BCF3F709C043F09 /* Pods-Calorish.release.xcconfig */,
+				AFC6CD28E29978443ABF5DA5 /* Pods_Calorish.framework */,
 			);
-			path = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		8412F1802845FB2000E891AC /* ViewController */ = {
@@ -699,18 +700,9 @@
 			isa = PBXGroup;
 			children = (
 				84B0B2B9282CDF0200525D98 /* Calorish */,
-				84B0B2B8282CDF0200525D98 /* Products */,
-				34A8E2C4B061437BED3A6D2E /* Pods */,
-				1F0C672B5BA731F64C32A0CE /* Frameworks */,
+				75BFC529758DF4D46F65F970 /* Pods */,
+				8354380112AC6876B8E26A2A /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		84B0B2B8282CDF0200525D98 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				84B0B2B7282CDF0200525D98 /* Calorish.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		84B0B2B9282CDF0200525D98 /* Calorish */ = {
@@ -978,7 +970,7 @@
 				ru,
 			);
 			mainGroup = 84B0B2AE282CDF0200525D98;
-			productRefGroup = 84B0B2B8282CDF0200525D98 /* Products */;
+			productRefGroup = 84B0B2AE282CDF0200525D98;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1046,7 +1038,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				$SRCROOT/R.generated.swift,
+				"$SRCROOT/R.generated.swift",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1325,7 +1317,7 @@
 		};
 		84B0B2CF282CDF0600525D98 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2CE77A7393A8FB8ED1B3611 /* Pods-Calorish.debug.xcconfig */;
+			baseConfigurationReference = 34CB4F80C719568619BA527E /* Pods-Calorish.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1353,7 +1345,7 @@
 		};
 		84B0B2D0282CDF0600525D98 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44A1A6DD3BCF3F709C043F09 /* Pods-Calorish.release.xcconfig */;
+			baseConfigurationReference = 07F2601C33A85C04D72EFA66 /* Pods-Calorish.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
