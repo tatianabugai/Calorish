@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MealsHeaderView" customModule="Calorish" customModuleProvider="target">
+            <connections>
+                <outlet property="carbsView" destination="ByL-TF-hY1" id="3lF-GT-BNe"/>
+                <outlet property="fatView" destination="P82-Rr-ICZ" id="iWd-Qp-ZSr"/>
+                <outlet property="kcalView" destination="55v-l7-JHa" id="kbP-O5-ZfL"/>
+                <outlet property="proteinsView" destination="eFW-DI-NDd" id="LsU-wn-99c"/>
+                <outlet property="view" destination="iN0-l3-epB" id="b5r-wZ-4F7"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="nnn-Kp-lE9">
+                    <rect key="frame" x="20" y="13" width="374" height="124"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="8NM-8r-OPZ">
+                            <rect key="frame" x="0.0" y="0.0" width="374" height="60"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eFW-DI-NDd" customClass="CaloriesView" customModule="Calorish" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="179.5" height="60"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="60" id="Zra-sL-lKs"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P82-Rr-ICZ" customClass="CaloriesView" customModule="Calorish" customModuleProvider="target">
+                                    <rect key="frame" x="194.5" y="0.0" width="179.5" height="60"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="eFW-DI-NDd" firstAttribute="width" secondItem="P82-Rr-ICZ" secondAttribute="width" id="Alq-u3-LnY"/>
+                                <constraint firstItem="P82-Rr-ICZ" firstAttribute="height" secondItem="eFW-DI-NDd" secondAttribute="height" id="yn2-96-PGr"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="MoV-tS-GMr">
+                            <rect key="frame" x="0.0" y="60" width="374" height="64"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ByL-TF-hY1" customClass="CaloriesView" customModule="Calorish" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="179.5" height="64"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="55v-l7-JHa" customClass="CaloriesView" customModule="Calorish" customModuleProvider="target">
+                                    <rect key="frame" x="194.5" y="0.0" width="179.5" height="64"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                </view>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="55v-l7-JHa" firstAttribute="width" secondItem="eFW-DI-NDd" secondAttribute="width" id="DPA-R3-6r0"/>
+                        <constraint firstItem="55v-l7-JHa" firstAttribute="height" secondItem="eFW-DI-NDd" secondAttribute="height" multiplier="1.07143" id="Ogt-Pg-Lf5"/>
+                        <constraint firstItem="ByL-TF-hY1" firstAttribute="height" secondItem="eFW-DI-NDd" secondAttribute="height" multiplier="1.07143" id="VNp-lD-YXx"/>
+                        <constraint firstItem="ByL-TF-hY1" firstAttribute="width" secondItem="eFW-DI-NDd" secondAttribute="width" id="sP2-zM-ak9"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="nnn-Kp-lE9" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="G16-Kr-knX"/>
+                <constraint firstItem="nnn-Kp-lE9" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="I9R-i4-UVU"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="nnn-Kp-lE9" secondAttribute="trailing" constant="20" id="Kg2-Ae-DGm"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="131.8840579710145" y="99.776785714285708"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

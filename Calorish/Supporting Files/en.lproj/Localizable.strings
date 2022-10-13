@@ -1,0 +1,58 @@
+/* 
+  Localizable.strings
+  Calorish
+
+  Created by admin on 23.06.2022.
+  Copyright © 2022 Tatiana Bugai. All rights reserved.
+*/
+
+// MARK: - Common
+
+"common.name" = "Имя";
+"common.user" = "Пользователь";
+"common.done" = "Готово";
+"common.cancel" = "Отмена";
+
+// MARK: - Units
+
+"unit.kcal" = "Калории";
+"unit.proteins" = "Белки";
+"unit.fat" = "Жиры";
+"unit.carbs" = "Углеводы";
+"unit.grams" = "грамм";
+
+"unit.kcal.short" = "ккал.";
+"unit.proteins.short" = "Б";
+"unit.fat.short" = "Ж";
+"unit.carbs.short" = "У";
+"unit.grams.short" = "г.";
+
+
+// MARK: - Main
+
+"tab.profiles" = "Профили";
+"tab.meals" = "Приёмы пищи";
+"tab.foods" = "Продукты";
+"tab.recipes" = "Рецепты";
+
+// MARK: - Profiles
+
+"profiles.title" = "Профили";
+
+// MARK: - Meals
+
+"meals.title" = "Приёмы пищи";
+
+// MARK: - Recipe
+"per.hundred.gram" = "на 100 г.";
+"ingredients" = "Ингредиенты";
+"new.recipe" = "Новый рецепт";
+
+// MARK: - Intake
+"food.button.title" = "Выбрать продукт";
+"alert.add.food" = "Добавить продукт";
+"alert.add.recipe" = "Добавить рецепт";
+"weight" = "Вес";
+
+// MARK: - Items
+"items.search.placeholder" = "Куриное филе";
